@@ -3,6 +3,7 @@
 html,
 body {
   font-family: "Inter", sans-serif;
+  background-color: #f5f4f8;
 }
 
 header {
@@ -126,6 +127,7 @@ h1 {
 }
 
 #sub-hero-background {
+  background-color: white;
   padding-inline: 10vw;
   box-shadow: 0px -3px 4px 1px;
 }
@@ -163,4 +165,41 @@ span.mini-title p {
   margin: 0;
   font-size: 0.8em;
   font-weight: 400;
+}
+
+#recomend {
+  margin-block-start: 10vh;
+  margin-inline-start: 11vw;
+}
+#recomend h2 {
+  font-weight: 500;
+}
+
+.icon-prev {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(212, 212, 212);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-inline-end: 10px;
+}
+
+.icon-prev img {
+  height: 20px;
+}
+
+#card-container {
+  display: flex;
+  align-items: center;
+  margin-inline-start: 7.5vw;
+}
+
+.the-card {
+  background-color: #7550fe;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
 }
