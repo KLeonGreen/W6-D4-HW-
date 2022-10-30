@@ -180,7 +180,7 @@ span.mini-title p {
   align-items: center;
   height: 50px;
   width: 50px;
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(255, 255, 255);
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -194,12 +194,217 @@ span.mini-title p {
 #card-container {
   display: flex;
   align-items: center;
-  margin-inline-start: 7.5vw;
+  justify-content: space-evenly;
+  width: 97vw;
+  /* margin-inline: auto; */
 }
 
 .the-card {
-  background-color: #7550fe;
-  height: 400px;
-  width: 300px;
-  border-radius: 20px;
+  height: 403px;
+  width: 260px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-block-end: 40px;
+  margin-inline-end: 10px;
+  box-shadow: 0px 0px 2px -1px;
+  border: solid 0.2px #c6c6c6;
+}
+
+/* CARDS BACKGROUND */
+
+.top-card-section {
+  height: 35%;
+  background-image: url(../images/course-graphql.jpg);
+  background-size: cover;
+}
+.top-card-section2 {
+  height: 35%;
+  background-image: url(../images/course-javascript.jpg);
+  background-size: cover;
+}
+.top-card-section3 {
+  height: 35%;
+  background-image: url(../images/course-node.jpg);
+  background-size: cover;
+}
+.top-card-section4 {
+  height: 35%;
+  background-image: url(../images/course-laravel.jpg);
+  background-size: cover;
+}
+.top-card-section2-1 {
+  height: 35%;
+  background-image: url(../images/course-html.jpg);
+  background-size: cover;
+}
+.top-card-section2-2 {
+  height: 35%;
+  background-image: url(../images/course-javascript.jpg);
+  background-size: cover;
+}
+.top-card-section2-3 {
+  height: 35%;
+  background-image: url(../images/course-node.jpg);
+  background-size: cover;
+}
+.top-card-section2-4 {
+  height: 35%;
+  background-image: url(../images/course-react.jpg);
+  background-size: cover;
+}
+.top-card-section3-1 {
+  height: 35%;
+  background-image: url(../images/course-gatsby.jpg);
+  background-size: cover;
+}
+.top-card-section3-2 {
+  height: 35%;
+  background-image: url(../images/course-html.jpg);
+  background-size: cover;
+}
+.top-card-section3-3 {
+  height: 35%;
+  background-image: url(../images/course-node.jpg);
+  background-size: cover;
+}
+.top-card-section3-4 {
+  height: 35%;
+  background-image: url(../images/course-laravel.jpg);
+  background-size: cover;
+}
+
+/* ------------------------------------------- */
+
+.bottom-card-section {
+  background-color: #ffffff;
+  padding: 20px;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.card-time-level {
+  display: flex;
+  margin-block: 10px;
+  font-size: 0.9em;
+  color: gray;
+}
+
+.time-card,
+.level {
+  display: flex;
+  align-items: center;
+  margin-inline-end: 10px;
+}
+
+.time-card img,
+.level img {
+  border-style: none;
+  width: 15px;
+  margin-inline-end: 5px;
+}
+.card-stars {
+  display: flex;
+  font-size: 0.8em;
+}
+
+.stars {
+  display: flex;
+  margin-inline-end: 5px;
+  width: 70px;
+  justify-content: space-between;
+}
+
+.star-item {
+  width: 12px;
+}
+
+.rate-numbers {
+  display: flex;
+  align-items: center;
+}
+
+.ratings {
+  font-size: 1.1em;
+  color: #ffaa00;
+}
+
+.total-rates {
+  margin-inline-start: 3px;
+  font-size: 0.9em;
+  color: gray;
+}
+
+.price {
+  display: flex;
+  font-size: 0.9em;
+  margin-block-start: 10px;
+}
+
+.real-price {
+  font-weight: 600;
+  margin-inline-end: 5px;
+}
+
+.old-price {
+  font-size: 0.8em;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.lower-card-section {
+  background-color: #ffffff;
+  padding-inline: 20px;
+  padding-block: 10px;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: solid 1px rgb(204, 204, 204);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar-infos {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-card {
+  width: 30px;
+  height: 30px;
+  margin-inline-end: 10px;
+}
+.avatar-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.avatar-name {
+  font-size: 1em;
+  color: gray;
+  font-weight: 400;
+}
+
+.bookmark-icon {
+  width: 15px;
+}
+
+#footer {
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px rgb(195, 195, 195);
+  width: 74vw;
+  margin-inline-start: 11vw;
+  padding-block: 20px;
+  margin-block-start: 10vh;
+  color: gray;
+  font-size: 0.9em;
+}
+
+#links a {
+  color: gray;
+  text-decoration: none;
+  padding-left: 30px;
 }
