@@ -408,3 +408,47 @@ span.mini-title p {
   text-decoration: none;
   padding-left: 30px;
 }
+
+@media (max-width: 675px) {
+  nav {
+    display: none;
+  }
+
+  #hero {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  #sub-title {
+    font-size: 1em;
+  }
+
+  #big-image img {
+    width: 385px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #text-content {
+    width: 100vw;
+    padding-inline-start: 5vw;
+  }
+
+  #buttons {
+    margin-block-start: 10px;
+  }
+
+  #btn-one,
+  #btn-two {
+    width: 135px;
+    height: 47px;
+    font-size: 0.8em;
+  }
+
+  #sub-hero-content {
+    flex-direction: column;
+    height: 20vh;
+    justify-content: space-between;
+  }
+}
